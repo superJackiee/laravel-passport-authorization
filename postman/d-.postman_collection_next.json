@@ -1,0 +1,1972 @@
+{
+	"info": {
+		"_postman_id": "80006616-0da1-4def-8e88-78add128f13c",
+		"name": "d:",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8000/api/apps/has_permission/fetching",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/has_permission/fetching",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"has_permission",
+						"fetching"
+					]
+				},
+				"description": "This is the testing request for permissions"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/has_permission/fetching",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/has_permission/fetching",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"has_permission",
+						"fetching"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/has_permission/fetching",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/has_permission/fetching",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"has_permission",
+						"fetching"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://free.currencyconverterapi.com/api/v5/convert?q=GBP_USD&compact=ultra&apiKey=8bbd20fbb0383ce4a071",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "lat",
+							"value": "-23.698946",
+							"type": "text"
+						},
+						{
+							"key": "lng",
+							"value": "133.889220",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "marc",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://free.currencyconverterapi.com/api/v5/convert?q=GBP_USD&compact=ultra&apiKey=8bbd20fbb0383ce4a071",
+					"protocol": "https",
+					"host": [
+						"free",
+						"currencyconverterapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"v5",
+						"convert"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "GBP_USD"
+						},
+						{
+							"key": "compact",
+							"value": "ultra"
+						},
+						{
+							"key": "apiKey",
+							"value": "8bbd20fbb0383ce4a071"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://finance.google.com/finance/converter?a='1000'&from='GBP'&to='USD'",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://finance.google.com/finance/converter?a='1000'&from='GBP'&to='USD'",
+					"protocol": "https",
+					"host": [
+						"finance",
+						"google",
+						"com"
+					],
+					"path": [
+						"finance",
+						"converter"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "'1000'"
+						},
+						{
+							"key": "from",
+							"value": "'GBP'"
+						},
+						{
+							"key": "to",
+							"value": "'USD'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://finance.google.com/finance/converter?a=1000&from=GBP&to=USD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://finance.google.com/finance/converter?a=1000&from=GBP&to=USD",
+					"protocol": "https",
+					"host": [
+						"finance",
+						"google",
+						"com"
+					],
+					"path": [
+						"finance",
+						"converter"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "1000"
+						},
+						{
+							"key": "from",
+							"value": "GBP"
+						},
+						{
+							"key": "to",
+							"value": "USD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://finance.google.com/finance/converter?a=219&from=GBP&to=USD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://finance.google.com/finance/converter?a=219&from=GBP&to=USD",
+					"protocol": "https",
+					"host": [
+						"finance",
+						"google",
+						"com"
+					],
+					"path": [
+						"finance",
+						"converter"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "219"
+						},
+						{
+							"key": "from",
+							"value": "GBP"
+						},
+						{
+							"key": "to",
+							"value": "USD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/has_permission/fetching",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/has_permission/fetching",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"has_permission",
+						"fetching"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/has_permission/fetching1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/has_permission/fetching1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"has_permission",
+						"fetching1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/has_permission/fetching",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/has_permission/fetching",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"has_permission",
+						"fetching"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/app_user/3/3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/app_user/3/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"app_user",
+						"3",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/apps/app_user/3/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTNjNmQ4NWE1NTY3ZjM0NGU1OWE1MDE5NDA4NjY3YTVlNzU1MWY5NzIzZTRjZmI5M2I4NTc5Y2JhZGNkYTBmZGU2ODczY2FlMDBiNWM2NmIiLCJpYXQiOjE2MDgyMjU2MTYsIm5iZiI6MTYwODIyNTYxNiwiZXhwIjoxNjM5NzYxNjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.LIBCX6zEJXDZd4jWdUazeZY-HwPvb4b60QHzCm0varXZf71aXtK07TJNO4i5dh7JFuIPfhaFz3k5uoMfEkGXdMV8LnTjOt65FCO8MiVVVVt148Ti9dQy9V6e5PkZawaRZPSLnGqcIj5fiqDV2MRYT0hW2B9yauX5sVSimMBF9_b8UsePr-zZJJ5e41aSDUEUDC9BY4yrqnTxOluN8E9fJcGIeN4VyUeIXKkbWJDJDEDsDb4mJR6rsqqaw0Wld3aqojBI7SzX_XLsivX4p1E-n2Ij_uNQxPQ1_JJlMiOWSxqOLeS7oEiQCDo-0PwQ53nlqQ4SKOlg6SjIuzhFAqP5y-tlCfszzo-wXZ5YsYyI21oFF_l5dG99HKHFhcJVkthNqKQmgnsUrOorLRPRYH2sI4EPUF4_9f34gwg8XgpCeoM5SExqbeFft270cscyhlh-6N6nmuTXT0MBK_oS7cnjac8mixFCF4nrb41l1iCkVktsOyhR1vaYtdxUl6RylynAGL6iGelYt_msy-cebqLYKgqfdXy2F5NE6DGfSam4LKqZ0t6ecyBFmMtN5KQ0nJQSePa_163bZNQc8mZAWZbBJfGB6WXkrGLMBlTWcvpZJb74xxUxTG55vUH_OnS23wb-jl9CkRGYwduCuqq1ae8If-CclCQPHYTAs1OHM8IdJck",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/apps/app_user/3/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"apps",
+						"app_user",
+						"3",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/login?email=alex1992818@outlook.com&password=123",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/login?email=alex1992818@outlook.com&password=123",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "alex1992818@outlook.com"
+						},
+						{
+							"key": "password",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles/role_user/2/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles/role_user/2/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles",
+						"role_user",
+						"2",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles/role_user/2/2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles/role_user/2/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles",
+						"role_user",
+						"2",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/privilege_user/3/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/privilege_user/3/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"privilege_user",
+						"3",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles/privilege_user/3/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles/privilege_user/3/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles",
+						"privilege_user",
+						"3",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles/role_user/3/2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles/role_user/3/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles",
+						"role_user",
+						"3",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles/user_role/3/2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles/user_role/3/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles",
+						"user_role",
+						"3",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/has_permission/edit_all",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/has_permission/edit_all",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"has_permission",
+						"edit_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/user_role/3/2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/user_role/3/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user_role",
+						"3",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/login?email=ppp@gmail.com&password=12345678",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/login?email=ppp@gmail.com&password=12345678",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "ppp@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "12345678"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/has_permission/edit_all2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/has_permission/edit_all2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"has_permission",
+						"edit_all2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/login",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/roles/role_user/2/2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/roles/role_user/2/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles",
+						"role_user",
+						"2",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/team_user/4/5",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/team_user/4/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"team_user",
+						"4",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/has_permission/edit_all",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/has_permission/edit_all",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"has_permission",
+						"edit_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/team_user/4/5",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/team_user/4/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"team_user",
+						"4",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/privileges/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOThlOGI1YWYzNzUwY2Q0M2VkZTdjMzk3YmZlYmY5MzgzZWM3OWJmNmVkOTg1YzZiZTY4NTgwZWVkNTU0ZWRlYjgwNDRjNzNjOWFlMGIxMzkiLCJpYXQiOjE2MDgxNzc3NDksIm5iZiI6MTYwODE3Nzc0OSwiZXhwIjoxNjM5NzEzNzQ4LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.NIfp2nkvAhK_C9PdEuTFK-ZXw543dPl9x-HGP3ZTMX8Rz9neW0MzZEEjv2csY-INXImEy6Qzj7s2O9eFzx_c8sy9Pu0JQb24iCYUEIa0ZjMGOxilXuS2FBqmLCzmPLyv-eOjXMBwHW3DwNkEW-tpay9c6E7KsL66c3klfUg5vGQ23zT0dL9y-XELrhU4PgxY5x_xyz2S29vSUema9XWCI-VQeD42_Kq7VTGNJM1dGkHESS0ZgWxEKBl_wcVG2_GIkaKA7DaA3A8eoeCtQkIk7BiBTq4o6skTZJj_2s_-iQ-Pwv_JnR25oG0VAaBsshUn-XY-i0M3H22cEwGsHtpYHoh_76lYh8uLHZS3xXc_pnBDR2FZQfsayJfBr7S465E79Hzv3ZHtXzgAfKMg0QynTRhai-4HAk14AZREmMw4MtsysIoZXm1uErUbPNNHbyOFciscr5RoN14vb5lkGoR7AYycTvpJWU8OE4dua2oK-J4q338hvZZtT_k-47K2wFmGPgFb61VI3guU64hw0bzEDNhnc-ICakxFbVWCGAWKMXJSCOImP6fUhYB0Aiq-q3Ml3kphf4NPzKnd4CL9wZ9bCtnrGCSkRsrljcsm83QCO0eQnZXRPhQWKKSOI1h8MxkHVXFFMsgCNc7w1K4xNlbtKEEByoIQ3uzbIBnmdXmugPE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/privileges/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"privileges",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.geonames.org/findNearbyStreetsOSM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://api.geonames.org/findNearbyStreetsOSM",
+					"protocol": "http",
+					"host": [
+						"api",
+						"geonames",
+						"org"
+					],
+					"path": [
+						"findNearbyStreetsOSM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "calc",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "calc",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "calc",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/teams/team_user/2/3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/teams/team_user/2/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"team_user",
+						"2",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/teams/team_user/2/4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/teams/team_user/2/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"team_user",
+						"2",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/teams/team_user/2/4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/teams/team_user/2/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"team_user",
+						"2",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/teams/4?name=calc&maxmembers=10&parent_team=5",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/teams/4?name=calc&maxmembers=10&parent_team=5",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "calc"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10"
+						},
+						{
+							"key": "parent_team",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/teams/4?name=calc&maxmembers=10",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/teams/4?name=calc&maxmembers=10",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "calc"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000\\api\\teams\\4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "maxmembers",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "parent_team",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000\\api\\teams\\4",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/api/teams/4?name=calc",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmQxMzliOTc3ZWIxNTFhMmFkMmE5Y2MxNTk1MWFjY2MyNjg2NTg4M2VhODdlOWMwYThlMzJjMGIyZDgzODU1YzA0YjIxYWViNTg3YWQ4MjciLCJpYXQiOjE2MDgwOTYyMTEsIm5iZiI6MTYwODA5NjIxMSwiZXhwIjoxNjM5NjMyMjExLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.MOxsxK4CvAtQyKK7P4bV4G_HU5k9vXQGoZFblpO2DNjOnhutbVPVtn52Bs3W7iElDP5tcVZGcepSx_b5qiwkKGM5szhZnhcbgdcYLkVxSOtYv9P_bFAIz38VWnHzdcZX6AY5fOU4zJfu2CL2zeNMzS2MOUJ0jGOG58UeKHjNisTIrOv1bMAJXRES46x3qUpTVmpgNRMCfWhvSHRtk1Qvc2JoRErShKwQ4kFpQQq5TlNhe8VzBEsH7n6mLpOIEPH7q1bCvCBtqE1gRyjQ99m0cYx9EPEkMU1B4SyqZ4h4hFPrj3B5lbf2NMB8jBGnTm5vTNl_4tTkrLpbJGOPWNt7MOTBHy71VbBTtU5yNJ4teRrk3C_AAKyYUL3Rsn0jcmT0jyzvig2uWGjIZyqeIY83z6hMSRdzRsF5_quiDzD9gu_afPnrWBafr83243poCdUbxJPJJmUM12pUWYgzfF24Fi8ju34v068McvUo3T25cM-xkfmfTE-PIYKX35KWybJiKaIhq3LSiaUntj7C73XL31oSDeyFoONbak5RL6XS_w44w1O6a7_CgR6uTijE283ed7O7Rssrmj1B3JbSFHJjA9td0ioWa0EIs5Q_yVONkfSI9ZlrfOsfIyOxL_I3D2aVX9ovfDBSvZTrRGyHXEW5ogYIUZSQASR0GSI1UOh7lp4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/teams/4?name=calc",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "calc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
